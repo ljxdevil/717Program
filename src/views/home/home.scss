@@ -1,0 +1,24 @@
+#home{
+    height: 100%;
+    overflow: auto;
+    header{
+        height: .96rem;
+        text-align: center;
+        input{
+            margin-top: .25rem;
+        }
+    }
+    .home-cat{
+        dl{
+            float: left;
+            width: 25%;
+            text-align: center;
+            line-height: .5rem;
+            img{
+                width: .86rem;
+                margin: .2rem auto;
+            }
+        }
+         
+    }
+}

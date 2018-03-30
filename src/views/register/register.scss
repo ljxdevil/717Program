@@ -1,0 +1,24 @@
+#register {
+    p {
+        padding: .2rem;
+        margin: .2rem 0;
+    }
+    input {
+        display: block;
+        width: 78%;
+        margin: 0 auto;
+        outline: none;
+        padding: .15rem 0;
+        background: #f6f6f6;
+        outline: none;
+        border-width: 0;
+        -webkit-appearance: none;
+    }
+    button {
+        background: #fc4141;
+        padding: 10px 30px;
+        outline: none;
+        color: #fff;
+        margin: 1rem auto;
+    }
+}

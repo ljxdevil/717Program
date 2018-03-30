@@ -1,0 +1,27 @@
+.goods-item{
+    float: left;
+    width:50%;
+    line-height: .6rem;
+    overflow: hidden;
+    dt{
+        height: 3.2rem;
+    }
+    p{
+        white-space: nowrap;// 不换行
+        text-overflow: ellipsis;
+        overflow: hidden;
+        .icon-cart{
+            float:right;
+            padding: 0 .2rem;
+            color: #f33737;
+        }
+    }
+    img{
+        width: 100%;
+    }
+    box-sizing: border-box;
+    &:nth-of-type(2n+1){
+        border-right: 2px solid #eee;
+    }
+    border-bottom: 2px solid #eee;
+}

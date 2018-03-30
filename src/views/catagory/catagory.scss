@@ -1,0 +1,29 @@
+#catagory{
+     header{
+        text-align: center;
+        input{
+            margin-top: 10px;
+        }
+     }
+    .left-side{
+        width: 30%;
+        float: left;
+        ul{
+            background: #f4f4f4;
+            color: #999;
+            border-left: 2px solid #f4f4f4;
+            text-align: center;
+            line-height: .8rem;
+            font-size: .36rem;
+        }
+        .catagory-active{
+            background: #fff;
+            color: #fc4141;
+            border-left: 2px solid #fc4141;
+        }
+    }
+    .right-side{
+        width: 70%;
+        float: left;
+    }
+}
